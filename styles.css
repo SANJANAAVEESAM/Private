@@ -16,17 +16,36 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex; /* Use flexbox to align items */
+    justify-content: flex-end; /* Align items to the right */
 }
 
 nav ul li {
-    display: inline;
     margin-left: 30px;
+    position: relative; /* Relative positioning for the underline effect */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
+    position: relative; /* Relative positioning for the underline effect */
+}
+
+nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ccff33; /* Highlight color */
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
 
 /* About Section */
@@ -97,8 +116,6 @@ nav ul li a {
 /* Contact Section */
 .contact {
     padding: 60px 40px;
-    display: flex;
-    flex-direction: column;
 }
 
 .contact h1 {
@@ -110,6 +127,7 @@ nav ul li a {
     display: flex;
     justify-content: flex-end;
     text-align: right;
+    margin-top: 20px; /* Add margin top for separation */
 }
 
 .contact-info p {
@@ -133,7 +151,7 @@ nav ul li a {
     margin-right: 20px;
 }
 
-.social-media img {
+social-media img {
     width: 30px;
     height: 30px;
     filter: invert(70%) sepia(80%) saturate(700%) hue-rotate(70deg) brightness(100%) contrast(100%);
