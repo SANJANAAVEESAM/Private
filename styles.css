@@ -121,12 +121,18 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .social-media a {
     display: inline-block;
     margin-right: 20px;
 }
 
-.social-media a img {
+.social-media img {
     width: 30px;
     height: 30px;
     filter: invert(70%) sepia(80%) saturate(700%) hue-rotate(70deg) brightness(100%) contrast(100%);
