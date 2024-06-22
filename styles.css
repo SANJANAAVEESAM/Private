@@ -1,5 +1,4 @@
-/* styles.css */
-
+/* Global styles */
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -30,6 +29,26 @@ nav ul li a {
     font-weight: 500;
 }
 
+/* About Section */
+.about {
+    padding: 60px 40px;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.about strong {
+    color: #ccff33;
+}
+
+/* Intro Section */
 .intro {
     display: flex;
     justify-content: space-between;
@@ -74,6 +93,7 @@ nav ul li a {
     border-radius: 50%;
 }
 
+/* Contact Section */
 .contact {
     padding: 60px 40px;
 }
@@ -97,8 +117,76 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
-.social-media img {
+.social-media a img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    filter: invert(70%) sepia(80%) saturate(700%) hue-rotate(70deg) brightness(100%) contrast(100%);
+}
+
+/* Education Section */
+.education {
+    padding: 60px 40px;
+}
+
+.education h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.education p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.education strong {
+    color: #ccff33;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 40px;
+}
+
+.projects h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-link {
+    color: #ccff33;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Work Section */
+.work {
+    padding: 60px 40px;
+}
+
+.work h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.work-item {
+    margin-bottom: 30px;
+}
+
+.work-link {
+    color: #ccff33;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.work-link:hover {
+    text-decoration: underline;
 }
