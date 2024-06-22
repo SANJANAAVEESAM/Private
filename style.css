@@ -1,0 +1,104 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: right;
+    padding: 20px 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.intro, .about, .education, .work, .projects, .contact {
+    padding: 60px 40px;
+}
+
+.intro-text h1, .about h1, .education h1, .work h1, .projects h1, .contact h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-text p, .about p, .education p, .work p, .projects p, .contact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.intro-text strong, .about strong, .education strong, .work strong, .projects strong, .contact strong {
+    color: #ccff33;
+}
+
+.resume-button {
+    display: inline-block;
+    background-color: #ccff33;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.resume-button span {
+    margin-left: 10px;
+}
+
+.resume-button:hover {
+    background-color: #b8e629;
+}
+
+.intro-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.work-item, .project-item {
+    margin-bottom: 20px;
+}
+
+.work-link, .project-link {
+    display: inline-block;
+    background-color: #ccff33;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.work-link span, .project-link span {
+    margin-left: 10px;
+}
+
+.work-link:hover, .project-link:hover {
+    background-color: #b8e629;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
