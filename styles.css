@@ -192,17 +192,32 @@ nav ul li a {
 }
 
 .work-item {
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* Add margin between work items */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-item div {
+    flex: 1;
 }
 
 .work-link {
-    color: #ccff33;
+    background-color: #ccff33;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
 }
 
 .work-link:hover {
-    text-decoration: underline;
+    background-color: #b8e629;
 }
 /* Highlight Hover Effect */
 .highlight-hover {
