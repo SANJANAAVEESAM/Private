@@ -151,7 +151,7 @@ nav ul li a:hover::after {
     margin-right: 20px;
 }
 
-social-media img {
+.social-media img {
     width: 30px;
     height: 30px;
     filter: invert(70%) sepia(80%) saturate(700%) hue-rotate(70deg) brightness(100%) contrast(100%);
@@ -223,3 +223,38 @@ social-media img {
 .work-link:hover {
     text-decoration: underline;
 }
+
+/* Highlight Hover Effect */
+.highlight-hover {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+.highlight-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.1), rgba(0, 255, 255, 0.5));
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.highlight-hover:hover::before {
+    transform: scaleX(1);
+}
+
+.highlight-hover:hover {
+    color: #ccff33; /* Highlight text color on hover */
+}
+
