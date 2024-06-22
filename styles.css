@@ -36,7 +36,7 @@ nav ul li a {
 
 .about h1 {
     font-size: 3rem;
-    margin-bottom: 40px; /* Increased space between heading and body */
+    margin-bottom: 50px; /* Increased space between heading and body */
 }
 
 .about p {
@@ -54,7 +54,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    padding: 0 40px;
+    padding: 0 50px;
 }
 
 .intro-text h1 {
