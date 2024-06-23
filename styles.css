@@ -192,7 +192,8 @@ nav ul li a {
     font-size: 3rem;
     margin-bottom: 40px;
     padding-left: 50px; /* Adjust the value to get half a finger gap */
-    padding-right: 50px; /* Add gap before body content */
+    padding-right: 50px;
+    text-align: center/* Add gap before body content */
 }
 
 .work-item {
