@@ -164,7 +164,9 @@ nav ul li a {
 
 .projects h1 {
     font-size: 3rem;
-    margin-bottom: 40px; /* Add gap before body content */
+    margin-bottom: 40px;
+    padding-left: 50px; /* Adjust the value to get half a finger gap */
+    padding-right: 50px;/* Add gap before body content */
 }
 
 .project-item {
@@ -189,8 +191,8 @@ nav ul li a {
 .work h1 {
     font-size: 3rem;
     margin-bottom: 40px;
-    padding-left: 20px; /* Adjust the value to get half a finger gap */
-    padding-right: 20px; /* Add gap before body content */
+    padding-left: 50px; /* Adjust the value to get half a finger gap */
+    padding-right: 50px; /* Add gap before body content */
 }
 
 .work-item {
